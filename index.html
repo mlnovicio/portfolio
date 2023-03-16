@@ -6,8 +6,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>MNovicio Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
   <meta property="og:image" content="https://mnovicio.000webhostapp.com/img/myprofile.jpg">
-
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -26,46 +27,37 @@
 
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-      <div class="profile">
-        <img src="img/myprofile.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Mc Lhey Novicio</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/mbnovicio" class="twitter" target="_BLANK"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://m.me/mclhey.novicio.14" class="facebook" target="_BLANK"><i class="bx bxl-messenger"></i></a>
-      
-        
-        </div>
-      </div>
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Mc Lhey Novicio</h1>
-      <p>I'm <span class="typed" data-typed-items="Programmer, Support, Image Editor, Server Engineer"></span></p>
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Brandon Johnson</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/mbnovicio" class="twitter" target="_BLANK"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://m.me/mclhey.novicio.14" class="facebook" target="_BLANK"><i class="bx bxl-messenger"></i></a>
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -73,20 +65,18 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>About</h2>
-            
-            <p>Hi, I'm Mc lhey Novicio, a software developer with six years of experience. I have a passion for creating innovative software solutions and pride myself on writing clean, efficient code. I'm experienced in working on projects of varying complexity and enjoy collaborating with cross-functional teams. When I'm not coding, I enjoy image editing and exploring new technologies. Overall, I'm a skilled and motivated developer who can bring value to any team.</p>
-          
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
+          <div class="col-lg-4">
             <img src="img/myprofile.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Programmer / Software Support Analyst / Image Editor</h3>
             <p class="fst-italic">
               My Personal Info.
@@ -108,14 +98,13 @@
               </div>
             </div>
             <p>
-             
+              
             </p>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
-
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -513,16 +502,23 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
+      <h3>Brandon Johnson</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
       <div class="copyright">
-        &copy; Copyright <strong><span> 2023</span></strong>
+        &copy; Copyright <strong>=</strong>. All Rights Reserved
       </div>
-      <div class="credits">
-
-        All Rights Reserved.
-      </div>
+     
     </div>
-  </footer><!-- End  Footer -->
+  </footer><!-- End Footer -->
 
+  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -534,6 +530,7 @@
   <script src="vendor/swiper/swiper-bundle.min.js"></script>
   <script src="vendor/typed.js/typed.min.js"></script>
   <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
